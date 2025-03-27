@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FibonacciNumberTest {
     @Test
-    void fibonacciNumber_shouldReturn0_whenFibonacciNumberIs0() {
+    void getFibonacciNumber_shouldReturn0_whenNumberIs0() {
         // GIVEN
         int n = 0;
         int expexted = 0;
