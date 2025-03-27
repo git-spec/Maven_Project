@@ -28,9 +28,10 @@ public class PlayerCharacterTest {
     @Test
     void moveW_shouldReturn0And1_whenMoveUp() {
         // Given
+        int[] pos = {0, 1};
         int[] expected = { 0, 1 };
         // When
-        int [] actual = PlayerCharacter.moveW();
+        int [] actual = PlayerCharacter.moveW(pos);
         // Then
         assertArrayEquals(expected, actual);
     }
