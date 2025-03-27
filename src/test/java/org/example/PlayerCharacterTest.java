@@ -45,4 +45,14 @@ public class PlayerCharacterTest {
         // Then
         assertArrayEquals(expected, actual);
     }
+    @Test
+    void moveD_shouldReturn0And1_whenMoveRight() {
+        // Given
+        int[] pos = { 1, 0 };
+        int[] expected = { 1, 0 };
+        // When
+        int [] actual = PlayerCharacter.moveD(pos);
+        // Then
+        assertArrayEquals(expected, actual);
+    }
 }
