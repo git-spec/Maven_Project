@@ -21,4 +21,8 @@ public class PlayerCharacter {
     public static int[] moveD(int[] pos) {
         return pos;
     }
+
+    public static int[] moveA(int[] pos) {
+        return pos;
+    }
 }
