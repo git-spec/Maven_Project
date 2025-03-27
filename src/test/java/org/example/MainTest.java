@@ -7,13 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MainTest {
     @Test
     void isEven_shouldReturnTrue_whenCalled2() {
-        // Given
+        // Arrange
         int number = 2;
         boolean expected = true;
-        // When
+        // Act
         boolean actual = Main.isEven(number);
-        // Then
+        // Assert
         assertEquals(expected, actual);
+        assertTrue(actual);
     }
     @Test
     void add_shouldRetrunSum7_whenSetnumbers2And5() {
