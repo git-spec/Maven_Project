@@ -17,4 +17,8 @@ public class PlayerCharacter {
     public static int[] moveS(int[] pos) {
         return pos;
     }
+
+    public static int[] moveD(int[] pos) {
+        return pos;
+    }
 }
