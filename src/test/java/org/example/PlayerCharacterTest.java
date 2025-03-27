@@ -15,4 +15,14 @@ public class PlayerCharacterTest {
         // Then
         assertEquals(expected, actual);
     }
+    @Test
+    void getY_shouldReturn0_whenStartGame() {
+        // Given
+        int y = 0;
+        int expected = 0;
+        // When
+        int actual = PlayerCharacter.getY(y);
+        // Then
+        assertEquals(expected, actual);
+    }
 }
