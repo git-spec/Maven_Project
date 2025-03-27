@@ -25,4 +25,13 @@ public class PlayerCharacterTest {
         // Then
         assertEquals(expected, actual);
     }
+    @Test
+    void moveW_shouldReturn0And1_whenMoveUp() {
+        // Given
+        int[] expected = { 0, 1 };
+        // When
+        int [] actual = PlayerCharacter.moveW();
+        // Then
+        assertArrayEquals(expected, actual);
+    }
 }
