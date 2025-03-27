@@ -17,7 +17,7 @@ public class MainTest {
         assertTrue(actual);
     }
     @Test
-    void add_shouldRetrunSum7_whenSetnumbers2And5() {
+    void add_shouldReturnSum7_whenSetNumbers2And5() {
         // Given
         int expected = 7;
         // When
