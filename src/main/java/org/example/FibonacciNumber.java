@@ -1,7 +1,7 @@
 package org.example;
 
 public class FibonacciNumber {
-    static int n = 3;
+    static int n = 31;
 
     public static int getFibonacciNumber(int n) {
         int prevNum = 0;
@@ -13,7 +13,6 @@ public class FibonacciNumber {
         } else if (n == 1) {
             return 1;
         } else {
-
             for (int i = 1; i < n; i++) {
                 nextNum = currNum + prevNum;
                 prevNum = currNum;
