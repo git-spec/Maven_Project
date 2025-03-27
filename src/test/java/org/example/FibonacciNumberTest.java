@@ -34,4 +34,14 @@ public class FibonacciNumberTest {
         // THEN
         assertEquals(expexted, actual);
     }
+    @Test
+    void getFibonacciNumber_shouldReturn13_whenNumberIs7() {
+        // GIVEN
+        int n = 7;
+        int expexted = 13;
+        // WHEN
+        int actual = FibonacciNumber.getFibonacciNumber(n);
+        // THEN
+        assertEquals(expexted, actual);
+    }
 }
