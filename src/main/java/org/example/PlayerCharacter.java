@@ -9,4 +9,8 @@ public class PlayerCharacter {
     public static int getY(int y) {
         return y;
     }
+
+    public static int[] moveW(int[] pos) {
+        return pos;
+    }
 }
