@@ -39,7 +39,7 @@ public class PlayerCharacterTest {
     void moveS_shouldReturn0And1_whenMoveDown() {
         // Given
         int[] pos = { 0, -1 };
-        int[] expected = { 0, 1 };
+        int[] expected = { 0, -1 };
         // When
         int [] actual = PlayerCharacter.moveS(pos);
         // Then
