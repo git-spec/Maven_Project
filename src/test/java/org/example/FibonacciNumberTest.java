@@ -24,4 +24,14 @@ public class FibonacciNumberTest {
         // THEN
         assertEquals(expexted, actual);
     }
+    @Test
+    void getFibonacciNumber_shouldReturn1_whenNumberIs2() {
+        // GIVEN
+        int n = 2;
+        int expexted = 1;
+        // WHEN
+        int actual = FibonacciNumber.getFibonacciNumber(n);
+        // THEN
+        assertEquals(expexted, actual);
+    }
 }
